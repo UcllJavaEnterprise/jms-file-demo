@@ -1,23 +1,16 @@
 package be.ucll.java.ent.file;
 
-import be.ucll.java.ent.controller.MessageController;
-import be.ucll.java.ent.domain.ChatMessageDTO;
-import be.ucll.java.ent.soap.model.v1.ChatRequest;
+import be.ucll.java.ent.model.generated.v1.ChatRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
-import java.io.StringReader;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-
 @Component
 public class SheduledTasks {
 

@@ -1,7 +1,7 @@
 package be.ucll.java.ent.jms;
 
 import be.ucll.java.ent.domain.ChatMessageDTO;
-import be.ucll.java.ent.soap.model.v1.ChatRequest;
+import be.ucll.java.ent.model.generated.v1.ChatRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jms.annotation.JmsListener;
